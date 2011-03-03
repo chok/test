@@ -1,0 +1,1320 @@
+Mar 02 18:16:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 02 18:16:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 02 18:16:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 02 18:16:14 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 02 18:16:14 symfony [info] {helloActions} Forward to action "default/module"
+Mar 02 18:16:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 02 18:16:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 02 18:16:15 symfony [info] {defaultActions} Call "defaultActions->executeModule()"
+Mar 02 18:16:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\lib\vendor\symfony\lib/controller/default/templates/moduleSuccess.php"
+Mar 02 18:16:15 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Mar 02 18:16:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Mar 02 18:16:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 02 18:16:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 02 18:16:15 symfony [info] {sfWebDebugLogger} Configuration 204.82 ms (12)
+Mar 02 18:16:15 symfony [info] {sfWebDebugLogger} Factories 122.19 ms (1)
+Mar 02 18:16:15 symfony [info] {sfWebDebugLogger} Action "hello/index" 60.38 ms (1)
+Mar 02 18:16:15 symfony [info] {sfWebDebugLogger} Action "default/module" 0.19 ms (1)
+Mar 02 18:16:15 symfony [info] {sfWebDebugLogger} View "Success" for "default/module" 29.62 ms (1)
+Mar 02 18:16:15 symfony [info] {sfWebResponse} Send content (31583 o)
+Mar 02 18:32:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 02 18:32:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 02 18:32:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 02 18:32:59 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 02 18:32:59 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 02 18:32:59 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 02 18:32:59 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 02 18:32:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 02 18:32:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 02 18:32:59 symfony [info] {sfWebDebugLogger} Configuration 87.20 ms (11)
+Mar 02 18:32:59 symfony [info] {sfWebDebugLogger} Factories 48.39 ms (1)
+Mar 02 18:32:59 symfony [info] {sfWebDebugLogger} Action "hello/index" 79.39 ms (1)
+Mar 02 18:32:59 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 35.41 ms (1)
+Mar 02 18:32:59 symfony [info] {sfWebResponse} Send content (28681 o)
+Mar 02 18:38:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 02 18:38:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 02 18:38:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 02 18:38:05 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 02 18:38:05 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 02 18:38:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 02 18:38:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 02 18:38:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 02 18:38:40 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 02 18:38:40 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 02 18:38:40 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 02 18:38:40 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 02 18:38:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 02 18:38:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 02 18:38:40 symfony [info] {sfWebDebugLogger} Configuration 9.77 ms (9)
+Mar 02 18:38:40 symfony [info] {sfWebDebugLogger} Factories 49.00 ms (1)
+Mar 02 18:38:40 symfony [info] {sfWebDebugLogger} Action "hello/index" 6.88 ms (1)
+Mar 02 18:38:40 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.20 ms (1)
+Mar 02 18:38:40 symfony [info] {sfWebResponse} Send content (28816 o)
+Mar 02 18:38:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 02 18:38:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 02 18:38:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 02 18:38:46 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 02 18:38:47 symfony [err] {sfException} Call to undefined method NameForm::bindAndSendMail.
+Mar 02 18:38:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 02 18:38:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 02 18:38:47 symfony [info] {sfWebDebugLogger} Configuration 8.52 ms (8)
+Mar 02 18:38:47 symfony [info] {sfWebDebugLogger} Factories 49.60 ms (1)
+Mar 02 18:38:47 symfony [info] {sfWebDebugLogger} Action "hello/index" 84.86 ms (1)
+Mar 03 10:26:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:26:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:26:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:26:32 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:26:32 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:26:32 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:26:32 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:26:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:26:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:26:32 symfony [info] {sfWebDebugLogger} Configuration 15.38 ms (9)
+Mar 03 10:26:32 symfony [info] {sfWebDebugLogger} Factories 351.07 ms (1)
+Mar 03 10:26:32 symfony [info] {sfWebDebugLogger} Action "hello/index" 77.31 ms (1)
+Mar 03 10:26:32 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 73.66 ms (1)
+Mar 03 10:26:32 symfony [info] {sfWebResponse} Send content (28746 o)
+Mar 03 10:41:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:41:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:41:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:41:38 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:41:39 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:41:39 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:41:39 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:41:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:41:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:41:39 symfony [info] {sfWebDebugLogger} Configuration 715.08 ms (11)
+Mar 03 10:41:39 symfony [info] {sfWebDebugLogger} Factories 51.65 ms (1)
+Mar 03 10:41:39 symfony [info] {sfWebDebugLogger} Action "hello/index" 752.05 ms (1)
+Mar 03 10:41:39 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 113.19 ms (1)
+Mar 03 10:41:39 symfony [info] {sfWebResponse} Send content (28947 o)
+Mar 03 10:44:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:44:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:44:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:44:45 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:44:45 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:44:45 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:44:45 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:44:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:44:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:44:45 symfony [info] {sfWebDebugLogger} Configuration 10.69 ms (9)
+Mar 03 10:44:45 symfony [info] {sfWebDebugLogger} Factories 53.87 ms (1)
+Mar 03 10:44:45 symfony [info] {sfWebDebugLogger} Action "hello/index" 8.64 ms (1)
+Mar 03 10:44:45 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 21.07 ms (1)
+Mar 03 10:44:45 symfony [info] {sfWebResponse} Send content (28994 o)
+Mar 03 10:48:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:48:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:48:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:48:41 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:48:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:48:41 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:48:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:48:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:48:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:48:41 symfony [info] {sfWebDebugLogger} Configuration 10.31 ms (9)
+Mar 03 10:48:41 symfony [info] {sfWebDebugLogger} Factories 48.70 ms (1)
+Mar 03 10:48:41 symfony [info] {sfWebDebugLogger} Action "hello/index" 10.21 ms (1)
+Mar 03 10:48:41 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 25.64 ms (1)
+Mar 03 10:48:41 symfony [info] {sfWebResponse} Send content (29651 o)
+Mar 03 10:48:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:48:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:48:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:48:43 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:48:43 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:48:43 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:48:43 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:48:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:48:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:48:43 symfony [info] {sfWebDebugLogger} Configuration 10.40 ms (9)
+Mar 03 10:48:43 symfony [info] {sfWebDebugLogger} Factories 51.50 ms (1)
+Mar 03 10:48:43 symfony [info] {sfWebDebugLogger} Action "hello/index" 12.41 ms (1)
+Mar 03 10:48:43 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.19 ms (1)
+Mar 03 10:48:43 symfony [info] {sfWebResponse} Send content (29620 o)
+Mar 03 10:48:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:48:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:48:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:48:59 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:48:59 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:48:59 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:48:59 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:48:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:48:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:48:59 symfony [info] {sfWebDebugLogger} Configuration 9.63 ms (9)
+Mar 03 10:48:59 symfony [info] {sfWebDebugLogger} Factories 49.18 ms (1)
+Mar 03 10:48:59 symfony [info] {sfWebDebugLogger} Action "hello/index" 8.65 ms (1)
+Mar 03 10:48:59 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.92 ms (1)
+Mar 03 10:48:59 symfony [info] {sfWebResponse} Send content (29022 o)
+Mar 03 10:49:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:49:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:49:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:49:01 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:49:01 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:49:01 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:49:01 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:49:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:49:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:49:01 symfony [info] {sfWebDebugLogger} Configuration 11.63 ms (9)
+Mar 03 10:49:01 symfony [info] {sfWebDebugLogger} Factories 55.01 ms (1)
+Mar 03 10:49:01 symfony [info] {sfWebDebugLogger} Action "hello/index" 10.72 ms (1)
+Mar 03 10:49:01 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 25.84 ms (1)
+Mar 03 10:49:01 symfony [info] {sfWebResponse} Send content (29478 o)
+Mar 03 10:49:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:49:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:49:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:49:02 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:49:02 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:49:02 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:49:02 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:49:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:49:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:49:02 symfony [info] {sfWebDebugLogger} Configuration 9.40 ms (9)
+Mar 03 10:49:02 symfony [info] {sfWebDebugLogger} Factories 49.65 ms (1)
+Mar 03 10:49:02 symfony [info] {sfWebDebugLogger} Action "hello/index" 8.81 ms (1)
+Mar 03 10:49:02 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.66 ms (1)
+Mar 03 10:49:02 symfony [info] {sfWebResponse} Send content (29476 o)
+Mar 03 10:49:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:49:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:49:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:49:16 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:49:16 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 10:49:16 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:49:16 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:49:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:49:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:49:16 symfony [info] {sfWebDebugLogger} Configuration 9.05 ms (9)
+Mar 03 10:49:16 symfony [info] {sfWebDebugLogger} Factories 48.69 ms (1)
+Mar 03 10:49:16 symfony [info] {sfWebDebugLogger} Action "hello/index" 9.51 ms (1)
+Mar 03 10:49:16 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 23.10 ms (1)
+Mar 03 10:49:16 symfony [info] {sfWebResponse} Send content (29507 o)
+Mar 03 10:49:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 10:49:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:49:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:49:25 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 10:49:25 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/hello"
+Mar 03 10:49:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 10:49:25 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/hello"
+Mar 03 10:49:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} Configuration 8.20 ms (8)
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} Factories 52.88 ms (1)
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} Action "hello/index" 9.54 ms (1)
+Mar 03 10:49:25 symfony [info] {sfWebResponse} Send content (121 o)
+Mar 03 10:49:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /hello/hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 10:49:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:49:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:49:25 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 10:49:25 symfony [err] {sfRenderException} The template "helloSuccess.php" does not exist or is unreadable in "".
+Mar 03 10:49:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 10:49:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} Configuration 7.98 ms (9)
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} Factories 46.18 ms (1)
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.11 ms (1)
+Mar 03 10:49:25 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 62.26 ms (1)
+Mar 03 10:50:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /hello/hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 10:50:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 10:50:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 10:50:22 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 10:50:22 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 10:50:22 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:50:22 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 10:50:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 10:50:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 10:50:22 symfony [info] {sfWebDebugLogger} Configuration 9.26 ms (9)
+Mar 03 10:50:22 symfony [info] {sfWebDebugLogger} Factories 46.20 ms (1)
+Mar 03 10:50:22 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.11 ms (1)
+Mar 03 10:50:22 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 18.31 ms (1)
+Mar 03 10:50:22 symfony [info] {sfWebResponse} Send content (28183 o)
+Mar 03 11:03:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:04:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:04:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:04:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:04:12 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:04:12 symfony [warning] {sfWebDebugLogger}  Warning at C:\Users\kiki\work\test\lib\vendor\symfony\lib\autoload\sfAutoload.class.php on line 188 (require(C:/Users/kiki/work/test/lib/form/NameForm.class.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory)
+Mar 03 11:04:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:04:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:04:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:04:27 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:04:27 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:04:27 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:04:27 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:04:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:04:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:04:27 symfony [info] {sfWebDebugLogger} Configuration 190.69 ms (9)
+Mar 03 11:04:27 symfony [info] {sfWebDebugLogger} Factories 113.66 ms (1)
+Mar 03 11:04:27 symfony [info] {sfWebDebugLogger} Action "hello/index" 45.19 ms (1)
+Mar 03 11:04:27 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 32.43 ms (1)
+Mar 03 11:04:27 symfony [info] {sfWebResponse} Send content (29329 o)
+Mar 03 11:04:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:04:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:04:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:04:40 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:04:40 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:04:40 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:04:40 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:04:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:04:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:04:40 symfony [info] {sfWebDebugLogger} Configuration 11.22 ms (9)
+Mar 03 11:04:40 symfony [info] {sfWebDebugLogger} Factories 55.79 ms (1)
+Mar 03 11:04:40 symfony [info] {sfWebDebugLogger} Action "hello/index" 30.69 ms (1)
+Mar 03 11:04:40 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 19.78 ms (1)
+Mar 03 11:04:40 symfony [info] {sfWebResponse} Send content (29880 o)
+Mar 03 11:04:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:04:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:04:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:04:45 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:04:45 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:04:45 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:04:45 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:04:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:04:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:04:45 symfony [info] {sfWebDebugLogger} Configuration 14.69 ms (9)
+Mar 03 11:04:45 symfony [info] {sfWebDebugLogger} Factories 54.16 ms (1)
+Mar 03 11:04:45 symfony [info] {sfWebDebugLogger} Action "hello/index" 33.09 ms (1)
+Mar 03 11:04:45 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 20.25 ms (1)
+Mar 03 11:04:45 symfony [info] {sfWebResponse} Send content (29897 o)
+Mar 03 11:11:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:11:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:11:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:11:35 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:11:35 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:11:35 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:11:35 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:11:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:11:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:11:35 symfony [info] {sfWebDebugLogger} Configuration 9.29 ms (9)
+Mar 03 11:11:35 symfony [info] {sfWebDebugLogger} Factories 46.21 ms (1)
+Mar 03 11:11:35 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.83 ms (1)
+Mar 03 11:11:35 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 21.32 ms (1)
+Mar 03 11:11:35 symfony [info] {sfWebResponse} Send content (29896 o)
+Mar 03 11:11:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:11:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:11:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:11:39 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:11:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:11:39 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (loolL)
+Mar 03 11:11:39 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/hello"
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/hello"
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Configuration 8.05 ms (8)
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Factories 49.33 ms (1)
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Action "hello/index" 308.08 ms (1)
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send content (121 o)
+Mar 03 11:11:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /hello/hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 11:11:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:11:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:11:39 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:11:39 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:11:39 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:11:39 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Configuration 9.63 ms (9)
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Factories 47.76 ms (1)
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.12 ms (1)
+Mar 03 11:11:39 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 17.92 ms (1)
+Mar 03 11:11:39 symfony [info] {sfWebResponse} Send content (28209 o)
+Mar 03 11:20:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:20:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:20:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:20:37 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:20:37 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:20:37 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:20:37 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:20:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:20:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:20:37 symfony [info] {sfWebDebugLogger} Configuration 55.70 ms (10)
+Mar 03 11:20:37 symfony [info] {sfWebDebugLogger} Factories 93.73 ms (1)
+Mar 03 11:20:37 symfony [info] {sfWebDebugLogger} Action "hello/index" 30.73 ms (1)
+Mar 03 11:20:37 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 21.14 ms (1)
+Mar 03 11:20:37 symfony [info] {sfWebResponse} Send content (29446 o)
+Mar 03 11:20:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:20:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:20:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:20:41 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:20:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:20:41 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:20:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:20:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:20:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:20:41 symfony [info] {sfWebDebugLogger} Configuration 9.51 ms (9)
+Mar 03 11:20:41 symfony [info] {sfWebDebugLogger} Factories 44.21 ms (1)
+Mar 03 11:20:41 symfony [info] {sfWebDebugLogger} Action "hello/index" 30.49 ms (1)
+Mar 03 11:20:41 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.32 ms (1)
+Mar 03 11:20:41 symfony [info] {sfWebResponse} Send content (29973 o)
+Mar 03 11:20:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:20:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:20:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:20:48 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:20:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:20:48 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:20:48 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/"
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/"
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Configuration 10.19 ms (8)
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Factories 45.26 ms (1)
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Action "hello/index" 112.93 ms (1)
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send content (110 o)
+Mar 03 11:20:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:20:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:20:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:20:48 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:20:48 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:20:48 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:20:48 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Configuration 8.66 ms (9)
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Factories 40.82 ms (1)
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} Action "hello/index" 31.82 ms (1)
+Mar 03 11:20:48 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.45 ms (1)
+Mar 03 11:20:48 symfony [info] {sfWebResponse} Send content (29511 o)
+Mar 03 11:21:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:21:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:21:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:21:06 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:21:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:21:06 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:21:06 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/"
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/"
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Configuration 8.96 ms (8)
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Factories 45.54 ms (1)
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Action "hello/index" 120.40 ms (1)
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send content (110 o)
+Mar 03 11:21:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:21:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:21:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:21:06 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:21:06 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:21:06 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:21:06 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Configuration 8.82 ms (9)
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Factories 40.98 ms (1)
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} Action "hello/index" 30.78 ms (1)
+Mar 03 11:21:06 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 20.62 ms (1)
+Mar 03 11:21:06 symfony [info] {sfWebResponse} Send content (29511 o)
+Mar 03 11:21:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:21:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:21:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:21:26 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:21:26 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:21:26 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:21:26 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:21:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:21:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:21:26 symfony [info] {sfWebDebugLogger} Configuration 8.89 ms (9)
+Mar 03 11:21:26 symfony [info] {sfWebDebugLogger} Factories 38.93 ms (1)
+Mar 03 11:21:26 symfony [info] {sfWebDebugLogger} Action "hello/index" 26.70 ms (1)
+Mar 03 11:21:26 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.51 ms (1)
+Mar 03 11:21:26 symfony [info] {sfWebResponse} Send content (29443 o)
+Mar 03 11:21:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:21:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:21:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:21:29 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:21:29 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:21:29 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:21:29 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/"
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/"
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Configuration 9.97 ms (8)
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Factories 42.59 ms (1)
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Action "hello/index" 113.73 ms (1)
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send content (110 o)
+Mar 03 11:21:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:21:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:21:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:21:29 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:21:29 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:21:29 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:21:29 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Configuration 8.94 ms (9)
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Factories 38.70 ms (1)
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.55 ms (1)
+Mar 03 11:21:29 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.37 ms (1)
+Mar 03 11:21:29 symfony [info] {sfWebResponse} Send content (29511 o)
+Mar 03 11:24:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:24:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:24:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:24:05 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:24:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:24:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:24:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:24:42 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:24:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:24:42 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:25:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:25:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:25:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:25:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:25:18 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:25:18 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:25:18 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:25:18 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:25:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:25:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} Configuration 17.83 ms (9)
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} Factories 14472.09 ms (1)
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} Action "hello/index" 57.10 ms (1)
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 52.34 ms (1)
+Mar 03 11:25:18 symfony [info] {sfWebResponse} Send content (29447 o)
+Mar 03 11:25:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:25:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:25:18 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:25:18 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:25:18 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:25:18 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:25:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:25:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} Configuration 9.47 ms (9)
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} Factories 9233.46 ms (1)
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} Action "hello/index" 34.55 ms (1)
+Mar 03 11:25:18 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.62 ms (1)
+Mar 03 11:25:18 symfony [info] {sfWebResponse} Send content (29358 o)
+Mar 03 11:25:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:25:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:25:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:25:24 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:25:24 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:25:24 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:25:24 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:25:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:25:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:25:24 symfony [info] {sfWebDebugLogger} Configuration 8.98 ms (9)
+Mar 03 11:25:24 symfony [info] {sfWebDebugLogger} Factories 55.88 ms (1)
+Mar 03 11:25:24 symfony [info] {sfWebDebugLogger} Action "hello/index" 36.36 ms (1)
+Mar 03 11:25:24 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 23.55 ms (1)
+Mar 03 11:25:24 symfony [info] {sfWebResponse} Send content (29357 o)
+Mar 03 11:25:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:25:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:25:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:25:28 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:25:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:25:28 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:25:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:26:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:26:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:26:04 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:26:04 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:26:04 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:26:04 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:26:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:26:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:26:04 symfony [info] {sfWebDebugLogger} Configuration 45.81 ms (9)
+Mar 03 11:26:04 symfony [info] {sfWebDebugLogger} Factories 4954.41 ms (1)
+Mar 03 11:26:04 symfony [info] {sfWebDebugLogger} Action "hello/index" 40.79 ms (1)
+Mar 03 11:26:04 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 40.81 ms (1)
+Mar 03 11:26:04 symfony [info] {sfWebResponse} Send content (29359 o)
+Mar 03 11:26:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:26:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:26:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:26:39 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:26:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:26:39 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:28:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:28:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:28:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:28:12 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:28:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:28:12 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:28:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:28:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:28:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:28:25 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:28:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:28:25 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:28:25 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/"
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/"
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Configuration 9.35 ms (8)
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Factories 50.32 ms (1)
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Action "hello/index" 203.01 ms (1)
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send content (110 o)
+Mar 03 11:28:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:28:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:28:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:28:25 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:28:25 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:28:25 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:28:25 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Configuration 28.98 ms (10)
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Factories 52.86 ms (1)
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} Action "hello/index" 25.54 ms (1)
+Mar 03 11:28:25 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 42.38 ms (1)
+Mar 03 11:28:25 symfony [info] {sfWebResponse} Send content (29545 o)
+Mar 03 11:29:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:29:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:02 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:29:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:29:02 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Hello)
+Mar 03 11:29:02 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Configuration 58.85 ms (9)
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Factories 100.77 ms (1)
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Action "hello/index" 117.76 ms (1)
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send content (115 o)
+Mar 03 11:29:02 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello) for /hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 11:29:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:02 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:29:02 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:29:02 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:02 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Configuration 9.95 ms (9)
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Factories 41.87 ms (1)
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.12 ms (1)
+Mar 03 11:29:02 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 22.05 ms (1)
+Mar 03 11:29:02 symfony [info] {sfWebResponse} Send content (28177 o)
+Mar 03 11:29:21 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello) for /hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 11:29:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:21 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:29:21 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:29:21 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:21 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:29:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:21 symfony [info] {sfWebDebugLogger} Configuration 10.21 ms (9)
+Mar 03 11:29:21 symfony [info] {sfWebDebugLogger} Factories 42.63 ms (1)
+Mar 03 11:29:21 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.16 ms (1)
+Mar 03 11:29:21 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 18.13 ms (1)
+Mar 03 11:29:21 symfony [info] {sfWebResponse} Send content (28254 o)
+Mar 03 11:29:23 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:29:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:23 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:29:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:29:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:29:23 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:29:23 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:23 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:29:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:23 symfony [info] {sfWebDebugLogger} Configuration 11.33 ms (9)
+Mar 03 11:29:23 symfony [info] {sfWebDebugLogger} Factories 53.96 ms (1)
+Mar 03 11:29:23 symfony [info] {sfWebDebugLogger} Action "hello/list" 110.75 ms (1)
+Mar 03 11:29:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:29:23 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 40.46 ms (1)
+Mar 03 11:29:23 symfony [info] {sfWebResponse} Send content (31069 o)
+Mar 03 11:29:28 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:29:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:28 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:29:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:29:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:29:28 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:29:28 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:28 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:29:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:28 symfony [info] {sfWebDebugLogger} Configuration 10.15 ms (9)
+Mar 03 11:29:28 symfony [info] {sfWebDebugLogger} Factories 52.67 ms (1)
+Mar 03 11:29:28 symfony [info] {sfWebDebugLogger} Action "hello/list" 41.92 ms (1)
+Mar 03 11:29:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:29:28 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 24.70 ms (1)
+Mar 03 11:29:28 symfony [info] {sfWebResponse} Send content (31067 o)
+Mar 03 11:29:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:29:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:34 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:29:34 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:29:34 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:34 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:29:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:34 symfony [info] {sfWebDebugLogger} Configuration 8.91 ms (9)
+Mar 03 11:29:34 symfony [info] {sfWebDebugLogger} Factories 54.84 ms (1)
+Mar 03 11:29:34 symfony [info] {sfWebDebugLogger} Action "hello/index" 33.39 ms (1)
+Mar 03 11:29:34 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.31 ms (1)
+Mar 03 11:29:34 symfony [info] {sfWebResponse} Send content (29403 o)
+Mar 03 11:29:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:29:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:29:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:29:57 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:29:57 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:29:57 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:57 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:29:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:29:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:29:57 symfony [info] {sfWebDebugLogger} Configuration 9.25 ms (9)
+Mar 03 11:29:57 symfony [info] {sfWebDebugLogger} Factories 57.53 ms (1)
+Mar 03 11:29:57 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.24 ms (1)
+Mar 03 11:29:57 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.03 ms (1)
+Mar 03 11:29:58 symfony [info] {sfWebResponse} Send content (29451 o)
+Mar 03 11:32:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:00 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:00 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/list"
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/list"
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Configuration 9.20 ms (8)
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Factories 48.69 ms (1)
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Action "hello/index" 28.98 ms (1)
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send content (114 o)
+Mar 03 11:33:00 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:33:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:00 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:33:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:33:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:33:00 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:33:00 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:00 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Configuration 7.77 ms (9)
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Factories 42.75 ms (1)
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Action "hello/list" 50.93 ms (1)
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:33:00 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 22.93 ms (1)
+Mar 03 11:33:00 symfony [info] {sfWebResponse} Send content (31077 o)
+Mar 03 11:33:02 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:33:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:02 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:33:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:33:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:33:02 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:33:02 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:02 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:02 symfony [info] {sfWebDebugLogger} Configuration 8.46 ms (9)
+Mar 03 11:33:02 symfony [info] {sfWebDebugLogger} Factories 41.80 ms (1)
+Mar 03 11:33:02 symfony [info] {sfWebDebugLogger} Action "hello/list" 43.77 ms (1)
+Mar 03 11:33:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:33:02 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 26.04 ms (1)
+Mar 03 11:33:02 symfony [info] {sfWebResponse} Send content (31082 o)
+Mar 03 11:33:04 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:33:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:04 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:33:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:33:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:33:04 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:33:04 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:04 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:04 symfony [info] {sfWebDebugLogger} Configuration 8.93 ms (9)
+Mar 03 11:33:04 symfony [info] {sfWebDebugLogger} Factories 39.13 ms (1)
+Mar 03 11:33:04 symfony [info] {sfWebDebugLogger} Action "hello/list" 50.55 ms (1)
+Mar 03 11:33:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:33:04 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 26.11 ms (1)
+Mar 03 11:33:04 symfony [info] {sfWebResponse} Send content (31082 o)
+Mar 03 11:33:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:08 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:08 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:33:08 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:08 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:08 symfony [info] {sfWebDebugLogger} Configuration 8.56 ms (9)
+Mar 03 11:33:08 symfony [info] {sfWebDebugLogger} Factories 44.41 ms (1)
+Mar 03 11:33:08 symfony [info] {sfWebDebugLogger} Action "hello/index" 35.24 ms (1)
+Mar 03 11:33:08 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 25.99 ms (1)
+Mar 03 11:33:08 symfony [info] {sfWebResponse} Send content (29419 o)
+Mar 03 11:33:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:39 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:39 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:33:39 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:39 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:39 symfony [info] {sfWebDebugLogger} Configuration 9.19 ms (9)
+Mar 03 11:33:39 symfony [info] {sfWebDebugLogger} Factories 39.57 ms (1)
+Mar 03 11:33:39 symfony [info] {sfWebDebugLogger} Action "hello/index" 30.27 ms (1)
+Mar 03 11:33:39 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.16 ms (1)
+Mar 03 11:33:39 symfony [info] {sfWebResponse} Send content (29496 o)
+Mar 03 11:33:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:41 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:33:41 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:41 symfony [info] {sfWebDebugLogger} Configuration 10.31 ms (9)
+Mar 03 11:33:41 symfony [info] {sfWebDebugLogger} Factories 40.89 ms (1)
+Mar 03 11:33:41 symfony [info] {sfWebDebugLogger} Action "hello/index" 28.80 ms (1)
+Mar 03 11:33:41 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 23.83 ms (1)
+Mar 03 11:33:41 symfony [info] {sfWebResponse} Send content (29618 o)
+Mar 03 11:33:42 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:33:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:42 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:33:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:33:42 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:33:42 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:33:42 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:42 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:42 symfony [info] {sfWebDebugLogger} Configuration 11.06 ms (9)
+Mar 03 11:33:42 symfony [info] {sfWebDebugLogger} Factories 59.13 ms (1)
+Mar 03 11:33:42 symfony [info] {sfWebDebugLogger} Action "hello/list" 76.84 ms (1)
+Mar 03 11:33:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:33:42 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 30.34 ms (1)
+Mar 03 11:33:42 symfony [info] {sfWebResponse} Send content (31124 o)
+Mar 03 11:33:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:43 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:43 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:33:43 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:43 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:43 symfony [info] {sfWebDebugLogger} Configuration 15.89 ms (9)
+Mar 03 11:33:43 symfony [info] {sfWebDebugLogger} Factories 60.46 ms (1)
+Mar 03 11:33:43 symfony [info] {sfWebDebugLogger} Action "hello/index" 47.36 ms (1)
+Mar 03 11:33:43 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 26.10 ms (1)
+Mar 03 11:33:43 symfony [info] {sfWebResponse} Send content (29622 o)
+Mar 03 11:33:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:47 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:47 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/list"
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/list"
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Configuration 6.80 ms (8)
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Factories 61.09 ms (1)
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Action "hello/index" 28.58 ms (1)
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send content (114 o)
+Mar 03 11:33:47 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:33:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:47 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:33:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:33:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:33:47 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:33:47 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:47 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Configuration 8.34 ms (9)
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Factories 45.98 ms (1)
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Action "hello/list" 48.28 ms (1)
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:33:47 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 22.93 ms (1)
+Mar 03 11:33:47 symfony [info] {sfWebResponse} Send content (31123 o)
+Mar 03 11:33:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:50 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:50 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:33:50 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:50 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:50 symfony [info] {sfWebDebugLogger} Configuration 9.27 ms (9)
+Mar 03 11:33:50 symfony [info] {sfWebDebugLogger} Factories 46.04 ms (1)
+Mar 03 11:33:50 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.32 ms (1)
+Mar 03 11:33:50 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.40 ms (1)
+Mar 03 11:33:50 symfony [info] {sfWebResponse} Send content (29622 o)
+Mar 03 11:33:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:33:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:55 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:33:55 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} Configuration 7.62 ms (8)
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} Factories 49.37 ms (1)
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} Action "hello/index" 28.26 ms (1)
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send content (115 o)
+Mar 03 11:33:55 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello) for /hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 11:33:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:55 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:33:55 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:33:55 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:55 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} Configuration 8.20 ms (9)
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} Factories 48.41 ms (1)
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.12 ms (1)
+Mar 03 11:33:55 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 19.19 ms (1)
+Mar 03 11:33:55 symfony [info] {sfWebResponse} Send content (28262 o)
+Mar 03 11:33:58 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:33:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:33:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:33:58 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:33:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:33:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:33:58 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:33:58 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:58 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:33:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:33:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:33:58 symfony [info] {sfWebDebugLogger} Configuration 8.07 ms (9)
+Mar 03 11:33:58 symfony [info] {sfWebDebugLogger} Factories 46.60 ms (1)
+Mar 03 11:33:58 symfony [info] {sfWebDebugLogger} Action "hello/list" 54.57 ms (1)
+Mar 03 11:33:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Mar 03 11:33:58 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 26.76 ms (1)
+Mar 03 11:33:58 symfony [info] {sfWebResponse} Send content (31108 o)
+Mar 03 11:34:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:34:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:00 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:34:00 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:34:00 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:00 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:34:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:00 symfony [info] {sfWebDebugLogger} Configuration 9.12 ms (9)
+Mar 03 11:34:00 symfony [info] {sfWebDebugLogger} Factories 47.75 ms (1)
+Mar 03 11:34:00 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.27 ms (1)
+Mar 03 11:34:00 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.70 ms (1)
+Mar 03 11:34:00 symfony [info] {sfWebResponse} Send content (29602 o)
+Mar 03 11:34:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:34:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:27 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:34:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:34:27 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Maxime)
+Mar 03 11:34:27 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Configuration 9.66 ms (8)
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Factories 52.15 ms (1)
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Action "hello/index" 117.94 ms (1)
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send content (115 o)
+Mar 03 11:34:27 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello) for /hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 11:34:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:27 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:34:27 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:34:27 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:27 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Configuration 9.03 ms (9)
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Factories 47.16 ms (1)
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.13 ms (1)
+Mar 03 11:34:27 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 18.24 ms (1)
+Mar 03 11:34:27 symfony [info] {sfWebResponse} Send content (28282 o)
+Mar 03 11:34:28 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:34:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:28 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:34:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:34:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:34:28 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:34:28 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:28 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:34:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:28 symfony [info] {sfWebDebugLogger} Configuration 9.02 ms (9)
+Mar 03 11:34:28 symfony [info] {sfWebDebugLogger} Factories 62.41 ms (1)
+Mar 03 11:34:28 symfony [info] {sfWebDebugLogger} Action "hello/list" 49.29 ms (1)
+Mar 03 11:34:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:34:28 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 31.46 ms (1)
+Mar 03 11:34:28 symfony [info] {sfWebResponse} Send content (31151 o)
+Mar 03 11:34:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:34:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:29 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:34:30 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:34:30 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:30 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:34:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:30 symfony [info] {sfWebDebugLogger} Configuration 14.69 ms (9)
+Mar 03 11:34:30 symfony [info] {sfWebDebugLogger} Factories 70.89 ms (1)
+Mar 03 11:34:30 symfony [info] {sfWebDebugLogger} Action "hello/index" 32.92 ms (1)
+Mar 03 11:34:30 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 78.21 ms (1)
+Mar 03 11:34:30 symfony [info] {sfWebResponse} Send content (29623 o)
+Mar 03 11:34:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:34:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:37 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:34:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:34:37 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Maxime)
+Mar 03 11:34:37 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello"
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Configuration 7.74 ms (8)
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Factories 52.10 ms (1)
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Action "hello/index" 124.84 ms (1)
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send content (115 o)
+Mar 03 11:34:37 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello) for /hello with parameters array (  'module' => 'hello',  'action' => 'hello',)
+Mar 03 11:34:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:34:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:34:37 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:34:37 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:34:37 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:37 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Configuration 8.63 ms (9)
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Factories 49.45 ms (1)
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} Action "hello/hello" 0.12 ms (1)
+Mar 03 11:34:37 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 19.93 ms (1)
+Mar 03 11:34:37 symfony [info] {sfWebResponse} Send content (28282 o)
+Mar 03 11:37:30 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:37:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:37:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:37:30 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:37:30 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:37:30 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:37:30 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:37:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:37:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:37:30 symfony [info] {sfWebDebugLogger} Configuration 66.05 ms (10)
+Mar 03 11:37:30 symfony [info] {sfWebDebugLogger} Factories 108.36 ms (1)
+Mar 03 11:37:30 symfony [info] {sfWebDebugLogger} Action "hello/index" 35.38 ms (1)
+Mar 03 11:37:30 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 30.74 ms (1)
+Mar 03 11:37:30 symfony [info] {sfWebResponse} Send content (29627 o)
+Mar 03 11:47:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:47:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:47:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:47:15 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:47:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:47:15 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Maxime)
+Mar 03 11:47:15 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/13"
+Mar 03 11:47:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:47:15 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/13"
+Mar 03 11:47:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:47:15 symfony [info] {sfWebDebugLogger} Configuration 9.00 ms (8)
+Mar 03 11:47:15 symfony [info] {sfWebDebugLogger} Factories 48.22 ms (1)
+Mar 03 11:47:15 symfony [info] {sfWebDebugLogger} Action "hello/index" 132.21 ms (1)
+Mar 03 11:47:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:47:15 symfony [info] {sfWebResponse} Send content (118 o)
+Mar 03 11:47:15 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/13 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '13',)
+Mar 03 11:47:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:47:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:47:15 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:47:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:47:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (13)
+Mar 03 11:47:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:49:11 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/13 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '13',)
+Mar 03 11:49:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:11 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:49:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (13)
+Mar 03 11:49:12 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:49:12 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "getPrefix" on "Name"
+Mar 03 11:49:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 11:49:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:12 symfony [info] {sfWebDebugLogger} Configuration 9.07 ms (9)
+Mar 03 11:49:12 symfony [info] {sfWebDebugLogger} Factories 40.04 ms (1)
+Mar 03 11:49:12 symfony [info] {sfWebDebugLogger} Action "hello/hello" 51.67 ms (1)
+Mar 03 11:49:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:12 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 85.69 ms (1)
+Mar 03 11:49:28 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/13 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '13',)
+Mar 03 11:49:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:28 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:49:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (13)
+Mar 03 11:49:28 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:49:28 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:28 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:49:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:28 symfony [info] {sfWebDebugLogger} Configuration 8.75 ms (9)
+Mar 03 11:49:28 symfony [info] {sfWebDebugLogger} Factories 49.60 ms (1)
+Mar 03 11:49:28 symfony [info] {sfWebDebugLogger} Action "hello/hello" 58.03 ms (1)
+Mar 03 11:49:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:28 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 23.91 ms (1)
+Mar 03 11:49:28 symfony [info] {sfWebResponse} Send content (31311 o)
+Mar 03 11:49:31 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:49:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:31 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:49:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:49:31 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:49:31 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:31 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:49:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:31 symfony [info] {sfWebDebugLogger} Configuration 8.59 ms (9)
+Mar 03 11:49:31 symfony [info] {sfWebDebugLogger} Factories 45.95 ms (1)
+Mar 03 11:49:31 symfony [info] {sfWebDebugLogger} Action "hello/list" 51.49 ms (1)
+Mar 03 11:49:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:31 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 25.37 ms (1)
+Mar 03 11:49:31 symfony [info] {sfWebResponse} Send content (31200 o)
+Mar 03 11:49:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:49:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:33 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:49:33 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:49:33 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:33 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:49:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:33 symfony [info] {sfWebDebugLogger} Configuration 9.24 ms (9)
+Mar 03 11:49:33 symfony [info] {sfWebDebugLogger} Factories 46.30 ms (1)
+Mar 03 11:49:33 symfony [info] {sfWebDebugLogger} Action "hello/index" 30.70 ms (1)
+Mar 03 11:49:33 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 24.05 ms (1)
+Mar 03 11:49:33 symfony [info] {sfWebResponse} Send content (29622 o)
+Mar 03 11:49:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:49:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:36 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:49:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:36 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Maximo)
+Mar 03 11:49:36 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/14"
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/14"
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Configuration 6.56 ms (8)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Factories 52.57 ms (1)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Action "hello/index" 117.29 ms (1)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send content (118 o)
+Mar 03 11:49:36 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/14 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '14',)
+Mar 03 11:49:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:36 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:49:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:36 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (14)
+Mar 03 11:49:36 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:49:36 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:36 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Configuration 7.56 ms (9)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Factories 40.68 ms (1)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Action "hello/hello" 50.90 ms (1)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:36 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 22.40 ms (1)
+Mar 03 11:49:36 symfony [info] {sfWebResponse} Send content (31279 o)
+Mar 03 11:49:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:49:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:38 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:49:38 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:49:38 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:38 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:49:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:38 symfony [info] {sfWebDebugLogger} Configuration 8.33 ms (9)
+Mar 03 11:49:38 symfony [info] {sfWebDebugLogger} Factories 45.02 ms (1)
+Mar 03 11:49:38 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.14 ms (1)
+Mar 03 11:49:38 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 23.43 ms (1)
+Mar 03 11:49:38 symfony [info] {sfWebResponse} Send content (29626 o)
+Mar 03 11:49:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:49:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:40 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:49:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:40 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Maxima)
+Mar 03 11:49:41 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/15"
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/15"
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Configuration 6.98 ms (8)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Factories 43.98 ms (1)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Action "hello/index" 103.21 ms (1)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send content (118 o)
+Mar 03 11:49:41 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/15 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '15',)
+Mar 03 11:49:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:49:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:49:41 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:49:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:49:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (15)
+Mar 03 11:49:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:49:41 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:41 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Configuration 7.40 ms (9)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Factories 43.73 ms (1)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Action "hello/hello" 60.58 ms (1)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:49:41 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 25.24 ms (1)
+Mar 03 11:49:41 symfony [info] {sfWebResponse} Send content (31277 o)
+Mar 03 11:50:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:50:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:50:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:50:11 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:50:11 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:50:11 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:50:11 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:50:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:50:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:50:11 symfony [info] {sfWebDebugLogger} Configuration 9.62 ms (9)
+Mar 03 11:50:11 symfony [info] {sfWebDebugLogger} Factories 43.03 ms (1)
+Mar 03 11:50:11 symfony [info] {sfWebDebugLogger} Action "hello/index" 34.92 ms (1)
+Mar 03 11:50:11 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 21.36 ms (1)
+Mar 03 11:50:11 symfony [info] {sfWebResponse} Send content (29626 o)
+Mar 03 11:50:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:50:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:50:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:50:15 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:50:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:50:15 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Maxima)
+Mar 03 11:50:15 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/16"
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/16"
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Configuration 7.21 ms (8)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Factories 42.22 ms (1)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Action "hello/index" 159.32 ms (1)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.17 ms (2)
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send content (118 o)
+Mar 03 11:50:15 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/16 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '16',)
+Mar 03 11:50:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:50:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:50:15 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:50:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:50:15 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (16)
+Mar 03 11:50:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:50:15 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:50:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Configuration 7.75 ms (9)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Factories 40.82 ms (1)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Action "hello/hello" 51.38 ms (1)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:50:15 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 23.07 ms (1)
+Mar 03 11:50:15 symfony [info] {sfWebResponse} Send content (31282 o)
+Mar 03 11:51:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:51:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:07 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:51:07 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:51:07 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:07 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:51:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:07 symfony [info] {sfWebDebugLogger} Configuration 9.88 ms (9)
+Mar 03 11:51:07 symfony [info] {sfWebDebugLogger} Factories 41.63 ms (1)
+Mar 03 11:51:07 symfony [info] {sfWebDebugLogger} Action "hello/index" 33.74 ms (1)
+Mar 03 11:51:07 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.06 ms (1)
+Mar 03 11:51:07 symfony [info] {sfWebResponse} Send content (29626 o)
+Mar 03 11:51:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:51:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:13 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:51:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:51:13 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Sandrina)
+Mar 03 11:51:13 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/17"
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/17"
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Configuration 7.99 ms (8)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Factories 40.53 ms (1)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Action "hello/index" 107.66 ms (1)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send content (118 o)
+Mar 03 11:51:13 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/17 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '17',)
+Mar 03 11:51:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:13 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:51:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:51:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (17)
+Mar 03 11:51:13 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:51:13 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:13 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Configuration 9.95 ms (9)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Factories 47.83 ms (1)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Action "hello/hello" 87.33 ms (1)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:51:13 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 29.01 ms (1)
+Mar 03 11:51:13 symfony [info] {sfWebResponse} Send content (31284 o)
+Mar 03 11:51:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:51:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:15 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:51:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/indexSuccess.php"
+Mar 03 11:51:15 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:15 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:51:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:15 symfony [info] {sfWebDebugLogger} Configuration 7.93 ms (9)
+Mar 03 11:51:15 symfony [info] {sfWebDebugLogger} Factories 39.86 ms (1)
+Mar 03 11:51:15 symfony [info] {sfWebDebugLogger} Action "hello/index" 29.13 ms (1)
+Mar 03 11:51:15 symfony [info] {sfWebDebugLogger} View "Success" for "hello/index" 22.35 ms (1)
+Mar 03 11:51:15 symfony [info] {sfWebResponse} Send content (29626 o)
+Mar 03 11:51:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'hello',  'action' => 'index',)
+Mar 03 11:51:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:18 symfony [info] {helloActions} Call "helloActions->executeIndex()"
+Mar 03 11:51:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:51:18 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO name (name) VALUES (?) - (Sandrine)
+Mar 03 11:51:18 symfony [info] {sfFrontWebController} Redirect to "http://local.weblinks.com/form_dev.php/hello/18"
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send header "Location: http://local.weblinks.com/form_dev.php/hello/18"
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Configuration 6.47 ms (8)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Factories 42.15 ms (1)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Action "hello/index" 108.93 ms (1)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send content (118 o)
+Mar 03 11:51:18 symfony [info] {sfPatternRouting} Match route "hello_hello" (/hello/:id) for /hello/18 with parameters array (  'module' => 'hello',  'action' => 'hello',  'id' => '18',)
+Mar 03 11:51:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:18 symfony [info] {helloActions} Call "helloActions->executeHello()"
+Mar 03 11:51:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:51:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT n.id AS n__id, n.name AS n__name FROM name n WHERE (n.id = ?) LIMIT 1 - (18)
+Mar 03 11:51:18 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/helloSuccess.php"
+Mar 03 11:51:18 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:18 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Configuration 7.36 ms (9)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Factories 40.32 ms (1)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Action "hello/hello" 61.26 ms (1)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:51:18 symfony [info] {sfWebDebugLogger} View "Success" for "hello/hello" 21.19 ms (1)
+Mar 03 11:51:18 symfony [info] {sfWebResponse} Send content (31281 o)
+Mar 03 11:51:20 symfony [info] {sfPatternRouting} Match route "hello_list" (/list) for /list with parameters array (  'module' => 'hello',  'action' => 'list',)
+Mar 03 11:51:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 11:51:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 11:51:20 symfony [info] {helloActions} Call "helloActions->executeList()"
+Mar 03 11:51:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 11:51:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT n.id AS n__id, n.name AS n__name FROM name n - ()
+Mar 03 11:51:20 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\modules/hello/templates/listSuccess.php"
+Mar 03 11:51:20 symfony [info] {sfPHPView} Decorate content with "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:20 symfony [info] {sfPHPView} Render "C:\Users\kiki\work\test\apps\form\templates/layout.php"
+Mar 03 11:51:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 11:51:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 11:51:20 symfony [info] {sfWebDebugLogger} Configuration 8.87 ms (9)
+Mar 03 11:51:20 symfony [info] {sfWebDebugLogger} Factories 40.34 ms (1)
+Mar 03 11:51:20 symfony [info] {sfWebDebugLogger} Action "hello/list" 45.07 ms (1)
+Mar 03 11:51:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Mar 03 11:51:20 symfony [info] {sfWebDebugLogger} View "Success" for "hello/list" 25.46 ms (1)
+Mar 03 11:51:20 symfony [info] {sfWebResponse} Send content (31319 o)
